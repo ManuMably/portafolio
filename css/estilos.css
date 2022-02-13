@@ -105,7 +105,7 @@ header .logo  img {
 }
 .sobre_mi {
     padding-top: 5%;
-    margin-top: 1%;
+    /*margin-top: 1%;*/
     padding-bottom: 5%;
     background-color: #bbd4e5 ;
     display: flex;
@@ -337,32 +337,58 @@ header:hover {
     overflow: hidden;
 }
 .sobre_mi {
+    
     padding-top: 0%;
     margin-top: 0%;
     padding-bottom: 0%;
-    background-color: #bbd4e5 ;
+    background-color:rgba(0, 0, 0, 0) ;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
     border-radius: 0px;
 }
+.fto {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    /*margin-right: 0%;*/
+}
+.fto p{
+    height: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15% ;
+    width: 70%;
+}
 #foto_perfil {
+    height: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
-    border-width: 5px;
+    border-width: 1%;
     border-radius: 100px;
-    width: 10em;
-    margin-bottom: 1%;
-    margin-top: 1%;
+    width: 9em;
 }
 .texto {
     background-color: #37465b ;
-    padding: 1%;
-    width: 15em;
-    margin-left: 0%;
-    margin-bottom: 5%;
+    /*background-size: 100%;*/
+    font-size: 15px;
+    align-self: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: 10%;
+    width: 90%;
+    margin-bottom: 0%;
     text-align: justify;
-    border-radius: 35px;
+}
+#mi {
+    margin-bottom: 3%;
+}
+.texto p {
+    padding-right: 5%;
+    padding-left: 5%;
 }
 .habilidades {
     margin-top: 5%;
@@ -370,7 +396,9 @@ header:hover {
     justify-content: center;
 }
 #habili {
-    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
 }
 .icons {
     width: 100%;
