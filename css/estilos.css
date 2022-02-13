@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    /*background-color: #0e2b50;*/
+    color: white;
+    background-image: url("../imagenes/patron_fondo2.png");
+    background-size: contain;    
+    background-attachment: fixed;
+    background-repeat: repeat;
+    width: 100%;
+    font-size: 50px;
+    background-repeat: repeat;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    width: 100%;
+    color: white;
+    background-color: #3296c8;
+    border-radius: 30px;
+    transition: .8s; 
+    padding-bottom: 3%;  
+    padding-top: 2%;
+    
+}
+header:hover {
+    background-color: #726eff;
+    color: white;
+}
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;     
+}
+.container .titulo_subt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25em;
+}
+.container .titulo {
+    display: flex;
+    justify-content: center;
+    transition: .8s;    
+}
+.container .titulo:hover {
+    border-bottom: solid #212b38;
+
+}
+.container .subtitulo {
+    display: flex;
+    justify-content: center;  
+}
+.navegacion {
+    height: 8.5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.navegacion button {
+    border: none;
+    position: relative;
+    width: 8em;
+    height: 2em;
+    background-color: #37465b;
+    border-radius: 20px;
+    font-size: 40px;
+    transition: .4s;
+    overflow: hidden;
+}
+.navegacion span {
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(114, 110, 255, .8);
+    border-radius: 50%;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    top: 1%;
+    left: -100%;
+    transition: .3s;
+}
+.navegacion button:hover span {
+    left: -10%;
+}
+.navegacion button:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+}
+.navegacion a {
+    position: relative;
+    z-index: 20;
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    margin-right: 10%;
+}
+header .logo  img {
+    width: 200px;
+    border-radius: 50%;
+}
+.sobre_mi {
+    padding-top: 5%;
+    margin-top: 1%;
+    padding-bottom: 5%;
+    background-color: #bbd4e5 ;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+#foto_perfil {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+    border-width: 5px;
+    border-radius: 10px;
+    width: 600px;
+}
+.fto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+.texto {
+    background-color: #37465b ;
+    padding: 1em;
+    width: 50%;
+    margin-left: 10%;
+    text-align: justify;
+    border-radius: 35px;
+}
+.habilidades {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10%;
+    transition: 3s;
+    
+}
+.icons p {
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.Hoja_de_vida {
+    background-color: #55859e;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.Hoja_de_vida h2 {
+    margin-top: 2%;
+}
+.Hoja_de_vida a {
+     margin-top:auto;
+     margin-bottom: auto;
+     padding: 20px;
+    color: white;
+    border-radius: 30px;
+    transition: 1s;
+}
+.Hoja_de_vida a:hover{
+    background-color: #37465b;
+}
+.redes_sociales {
+    background: linear-gradient(#2d2c55, #ff97d9);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: solid black 20px;
+    border-right: solid white 20px;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#redes {
+    margin-top: 5%;
+}
+.icono_redes {
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.icono_redes a {
+    border: solid black;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    transition: .9s;
+}
+.icono_redes a:hover {
+    border: solid #e0eded;
+    color: #212b38;
+    background-color: #e0cae0;
+}
+
+.escribeme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.escribeme .formulario {
+    font-size: 30px;
+}
+.escribeme .formulario ul {
+    list-style-type: none;
+}
+
+.escribeme h3 {
+    font-size: 2em;
+}
+
+#nombre {
+    font-size: 30px;
+}
+#correo{
+    font-size: 30px;
+}
+#mensaje {
+    font-size: 30px;
+    margin-left: 1%;
+}
+.formul {
+    border-radius: 10px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: #726eff;
+}
+.formul label  {
+    margin: 30px;
+}
+.formul button {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    background-color: #212b38;
+    font-size: 40px;
+    margin: 30px;
+    transition: 1s;
+}
+.formul button:hover {
+    background-color: #37465b;
+}
+.boton_volver {
+    
+    border-radius: 30px;
+    position: fixed;
+    margin-left: 92%;
+    margin-top: 37%;
+    text-align: center;
+    font-size: 35px;
+    transition: .8s;
+    
+}
+.boton_volver a{ 
+    color: white;
+    transition: .2s;
+    text-decoration: none;
+}
+
+@media (max-width: 700px){
+body {
+    font-size: 20px;
+}
+header {
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 0%;
+}
+header:hover {
+    background-color: #3296c8;
+}
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegacion {
+    height: 8.5em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.navegacion button {
+    border: none;
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    height: 2.5em;
+    background-color: #37465b;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: .4s;
+    overflow: hidden;
+}
+.sobre_mi {
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    background-color: #bbd4e5 ;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px;
+}
+#foto_perfil {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+    border-width: 5px;
+    border-radius: 100px;
+    width: 10em;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.texto {
+    background-color: #37465b ;
+    padding: 1%;
+    width: 25em;
+    margin-left: -20%;
+    margin-bottom: 5%;
+    text-align: justify;
+    border-radius: 35px;
+}
+.habilidades {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+#habili {
+    width: 80%;
+}
+.icons {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    transition: 3s;
+    
+}
+.icons p {
+    background-color: #000055;
+    display: flex;
+    z-index: 20;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.Hoja_de_vida {
+    background-color: #55859e;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 90%;
+    margin: 0%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.Hoja_de_vida h2 {
+    margin-top: 5%;
+}
+.Hoja_de_vida a {
+     margin-top:auto;
+     margin-bottom: auto;
+     padding: 20px;
+    color: white;
+    border-radius: 30px;
+    transition: 1s;
+}
+.redes_sociales {
+    margin-top: 5%;
+    width: 85%;
+    background: linear-gradient(#2d2c55, #ff97d9);
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-left: solid black 0px;
+    border-right: solid white 0px;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#redes {
+    margin-top: 5%;
+}
+.icono_redes {
+    margin-top: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icono_redes a {
+    border: solid black;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    transition: .9s;
+}
+.escribeme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 7%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+.escribeme .formulario {
+    margin-left: -10%;
+    width: 90%;
+    font-size: 10px;
+}
+.escribeme .formulario ul {
+    list-style-type: none;
+}
+
+.escribeme h3 {
+    font-size: 1em;
+}
+
+#nombre {
+    font-size: 10px;
+}
+#correo{
+    font-size: 10px;
+}
+#mensaje {
+    font-size: 10px;
+    margin-left: 0%;
+}
+.formul {
+    border-radius: 10px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: #726eff;
+}
+.formul label  {
+    margin: 10px;
+}
+.formul button {
+    font-family: 'Rubik', sans-serif;
+    width: 20%;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    background-color: #212b38;
+    font-size: 20px;
+    margin: 30px;
+    transition: 1s;
+}
+.boton_volver {
+    display: none;
+    
+}
+.boton_volver a{ 
+    display: none;
+}
+}

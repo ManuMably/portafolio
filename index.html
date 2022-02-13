@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Royer Manuel Pineda Martinez</title>
+    <link rel="shortcut icon" href="imagenes/logo_manu.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/a912acfaab.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/estilos.css">
+
+
+
+
+</head>
+
+
+<body>
+    <div class="boton_volver"><a href="#star"><i class="fas fa-arrow-circle-up"></i><br>volver al inicio</a></div>
+    <header class="header">
+        <div class="container">
+            <div class="navegacion">
+                     <button><span></span><a href="#mi">Sobre mi</a></button>
+                     <button><span></span><a href="#habili">Habilidades</a></button>
+                     <button><span></span><a href="#hdv">Hoja de vida</a></button>
+                     <button><span></span><a href="#redes">Redes sociales</a></button>
+                     <button><span></span><a href="#escribem"> Escribeme</a></button>
+            </div>
+            <div class="titulo_subt">
+            <div class="titulo"><h1>Royer Manuel Pineda Martinez</h1></div>
+            <div class="subtitulo"><h2>Desarrollador web</h2></div>
+            </div>
+            <div class="logo" id="star"><img src="imagenes/logo_manu.jpg" alt="ico"></div>            
+            
+       </div>
+    </header>
+    <main class="main">
+        <div class="sobre_mi">
+            <div class="texto">
+            <h2 id="mi">Conociendome</h2>
+            <p>Mi nombre es Royer Manuel Pineda Martinez, tengo 26 años, vivo en la ciudad de Medellin Colombia <br><br> Amante del desarrollo web y la programacion, aprender nuevas tenologias es algo que me apasiona, estudie desarrollo front end por medio de sapiencia y certificado por el poliandino
+                 y actualmente estudio programacion con mision tic. <br> <br> la pagina en la que te encuentras actualmente fue hecha desde cero por mi, y es un proyecto personal en donde puedo experimentar y aplicar mis conocimientos.
+            </p>
+            </div>
+            <div class="fto">
+                <img id="foto_perfil" src="imagenes/foto_perfil.JPG" alt="mifoto">
+                </div>
+        </div>
+        <div class="habilidades">
+            <div class="t_ico">
+            <h2 id="habili">los lenguajes y habilidades con las que cuento en este momento son:</h2>
+            
+            <div class="icons">
+                <p><i class="fab fa-html5 fa-2x"></i><br> HTML</p>
+                <P><i class="fab fa-css3-alt fa-2x"></i><br> CSS</P>
+                <P><i class="fab fa-js-square fa-2x"></i><br> JAVASCRIPT <br>Basico</P>
+                <p><i class="fab fa-github-square fa-2x"></i><br> GITHUB</p>
+            </div>
+            </div>
+        </div>
+        <div class="Hoja_de_vida">
+            <h2 id="hdv">Mi hoja de vida:</h2>
+
+            <a href="imagenes/HV.pdf" target="blank"><i class="fas fa-file-pdf fa-3x"></i></a>
+
+        </div>
+        <div class="redes_sociales">
+            <div class="manejo">
+                <h2 id="redes">las redes sociales que Manejo</h2>
+            </div>
+            <div class="icono_redes">
+                <a href="https://www.linkedin.com/in/royer-pineda-005a661ab/" target="blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://www.instagram.com/rollermansk8/?hl=es" target="blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+                <a href="https://www.facebook.com/m4nu37" target="blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="https://wa.me/523216499956" target="blank"><i class="fab fa-whatsapp-square fa-2x"></i></a>
+                <a href="https://github.com/ManuMably" target="blank"><i class="fab fa-github-square fa-2x"></i></a>
+            </div>
+        
+
+        </div>        
+    </main>
+    
+
+
+    <footer>
+        <div class="escribeme">
+            <h3 id="escribem">Escribeme</h3>
+            <form action="https://formspree.io/f/mdobgopd" method="POST" class="formulario" id="formula">
+                <div class="formul">
+                    
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" name="Nombre" id="nombre" required>
+                    
+                        <label for="correo">Tu Correo: </label>
+                        <input type="email" name="correo" id="correo" required>
+                    
+                        <label for="mensaje">Mensaje: </label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    
+                        <button type="submit">Enviar</button>
+                    
+                </div>
+            </form>
+
+        </div>
+
+    </footer>
+
+
+<script src="js/correo.js"></script>
+    
+</body>
+</html>
