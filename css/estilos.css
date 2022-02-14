@@ -140,6 +140,9 @@ header .logo  img {
     text-align: justify;
 }
 .habilidades {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
     margin-top: 5%;
     display: flex;
     justify-content: center;
