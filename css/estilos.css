@@ -151,15 +151,68 @@ header .logo  img {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin-top: 10%;
-    transition: 3s;
-    
+    margin-top: 10%;    
 }
 .icons p {
-    position: relative;
     z-index: 20;
-    overflow: hidden;
     border-radius: 30px;
+}
+    
+
+.icons p #html_logo {
+    width: 80%;
+    color: orange;
+    background-color: white;
+    border-radius: 30px; 
+    transition: .9s;
+}
+.icons p #html_logo:hover{
+    margin-bottom: 15px;
+    box-shadow: 15px 15px #888888;
+}
+.icons p #css_logo {
+    width: 100%;
+    color: #3296c8;
+    background-color: white;
+    border-radius: 30px;
+    transition: .9s;
+}
+.icons p #css_logo:hover{
+    margin-bottom: 15px;
+    box-shadow: 15px 15px #888888;
+}
+.icons p #js_logo {
+    width: 38%;
+    color: yellow;
+    background-color: white;
+    border-radius: 30px;
+    transition: .9s;
+}
+.icons p #js_logo:hover{
+    margin-bottom: 15px;
+    box-shadow: 15px 15px #888888;
+}
+.icons p #github_logo {
+    width: 60%;
+    color: purple;
+    background-color: white;
+    border-radius: 30px;
+    transition: .9s;
+}
+.icons p #github_logo:hover{
+    margin-bottom: 15px;
+    box-shadow: 15px 15px #888888;
+}
+.icons p #wordpress_logo {
+    width: 38%;
+    color: #3296c8;
+    background-color: white;
+    border-radius: 30px;
+    transition: .9s;
+}
+.icons p #wordpress_logo:hover{
+    margin-bottom: 15px;
+    box-shadow: 15px 15px #888888;
 }
 .Hoja_de_vida {
     background-color: #55859e;
@@ -298,6 +351,8 @@ header .logo  img {
     text-decoration: none;
 }
 
+/*configuracion del responsive basico*/
+
 @media (max-width: 700px){
 body {
     width: 100%;
@@ -355,7 +410,6 @@ header:hover {
     margin-left: 15%;
     margin-right: 15%;
     width: 70%;
-    /*margin-right: 0%;*/
 }
 .fto p{
     height: 80%;
@@ -414,11 +468,28 @@ header:hover {
     
 }
 .icons p {
-    background-color: #000055;
     display: flex;
     z-index: 20;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 20px;
+}
+.icons p #html_logo {
+    background-color: black;
+}
+.icons p #css_logo {
+    background-color: black;
+}
+.icons p #js_logo {
+    background-color: black;
+}
+.icons p #github_logo {
+    background-color: black;
+}
+.icons p #wordpress_logo {
+    background-color: black;
 }
 .Hoja_de_vida {
     background-color: #55859e;
