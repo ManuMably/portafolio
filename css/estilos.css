@@ -23,8 +23,9 @@ header {
     background-color: #3296c8;
     border-radius: 30px;
     transition: .8s; 
-    padding-bottom: 3%;  
+    padding-bottom: 1%;  
     padding-top: 2%;
+    margin-bottom: 2%;
     
 }
 header:hover {
@@ -34,7 +35,7 @@ header:hover {
 .container {
     margin: auto;
     display: flex;
-    justify-content: space-around;     
+    justify-content: space-around;   
 }
 .container .titulo_subt {
     display: flex;
@@ -157,8 +158,6 @@ header .logo  img {
     z-index: 20;
     border-radius: 30px;
 }
-    
-
 .icons p #html_logo {
     width: 80%;
     color: orange;
@@ -240,21 +239,16 @@ header .logo  img {
     background-color: #37465b;
 }
 .redes_sociales {
-    background: linear-gradient(#2d2c55, #ff97d9);
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-left: solid black 20px;
-    border-right: solid white 20px;
     padding-bottom: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: linear-gradient(200deg, #252850, #3b83bd);
 }
 #redes {
     margin-top: 5%;
+    border-bottom: solid #bbd4e5;
 }
 .icono_redes {
     margin-top: 10%;
@@ -271,6 +265,21 @@ header .logo  img {
     border-radius: 20px;
     color: white;
     transition: .9s;
+}
+.icono_redes a #icono_red_linkedin {
+    color: #3296c8;
+    background-color: white;
+    border-radius: 40%;
+}
+.icono_redes a #icono_red_instagram {
+    color: #dd2a7b;
+    background-color: white;
+    border-radius: 40%;
+}
+.icono_redes a #icono_red_github {
+    color: #2d2c55;
+    background-color: white;
+    border-radius: 40%;
 }
 .icono_redes a:hover {
     border: solid #e0eded;
