@@ -361,7 +361,7 @@ header .logo  img {
     text-decoration: none;
 }
 
-/*configuracion del responsive basico*/
+/*configuracion del responsive basico promedio de dispositivos*/
 
 @media (max-width: 700px){
 body {
@@ -623,6 +623,7 @@ header:hover {
     font-size: 20px;
     margin: 30px;
     transition: 1s;
+    margin-left: 40%;
 }
 .boton_volver {
     display: none;
@@ -632,3 +633,291 @@ header:hover {
     display: none;
 }
 }
+
+
+
+
+
+/* dispositivos medianos */
+
+@media (max-width: 300px){
+    body {
+        width: 100%;
+        margin: 0;
+        font-size: 20px;
+    }
+    header {
+        font-size: 10px;
+        border-radius: 0px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+    header:hover {
+        background-color: #3296c8;
+    }
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20%;
+    }
+    .navegacion {
+        height: 8.5em;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .navegacion button {
+        border: none;
+        position: relative;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        width: 100%;
+        height: 2.5em;
+        background-color: #37465b;
+        border-radius: 20px;
+        font-size: 10px;
+        transition: .4s;
+        overflow: hidden;
+    }
+    .sobre_mi {
+        
+        padding-top: 0%;
+        margin-top: 0%;
+        padding-bottom: 0%;
+        background-color:rgba(0, 0, 0, 0) ;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0px;
+    }
+    .fto {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
+    .fto p{
+        height: 80%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 15%;
+        padding-right: 15% ;
+        width: 70%;
+        border-top: none;
+        border-left: none;
+        border-right: none;    
+    }
+    #foto_perfil {
+        height: 80%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+        border-width: 1%;
+        border-radius: 100px;
+        width: 9em;
+    }
+    .texto {
+        background-color: #37465b ;
+        /*background-size: 100%;*/
+        font-size: 15px;
+        align-self: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-right: 10%;
+        width: 90%;
+        margin-bottom: 0%;
+        text-align: justify;
+    }
+    #mi {
+        margin-bottom: 3%;
+    }
+    .texto p {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .habilidades {
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    #habili {
+        padding-left: 15%;
+        padding-right: 15%;
+        width: 70%;
+        font-size: 20px;
+    }
+    .icons {
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-top: 10%;
+        transition: 3s;
+        
+    }
+    .icons p {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        display: flex;
+        z-index: 20;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .icons p #html_logo {
+        background-color: black;
+    }
+    .icons p #css_logo {
+        background-color: black;
+    }
+    .icons p #js_logo {
+        background-color: black;
+    }
+    .icons p #github_logo {
+        background-color: black;
+    }
+    .icons p #wordpress_logo {
+        background-color: black;
+    }
+    .Hoja_de_vida {
+        background-color: #212b38;
+        border-radius: 0px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+        margin: 0%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        border-bottom: solid 7px black;
+        border-top: solid 7px black;
+        border-left: dotted 10px black;
+        border-right: dotted 10px black;
+    }
+    .Hoja_de_vida h2 {
+        margin-top: 5%;
+    }
+    .Hoja_de_vida a {
+         margin-top:auto;
+         margin-bottom: auto;
+         padding: 20px;
+        color: white;
+        border-radius: 30px;
+        transition: 1s;
+    }
+    .redes_sociales {
+        font-size: 15px;
+        margin-top: 5%;
+        width: 100%;
+        background: linear-gradient(#2d2c55, #ff97d9);
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        border-left: solid black 0px;
+        border-right: solid white 0px;
+        padding-bottom: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-items: center;
+    }
+    #redes {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+    .icono_redes {
+        margin-top: 10%;
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .icono_redes a {
+        border: solid black;
+        padding: 10px;
+        border-radius: 20px;
+        color: white;
+        transition: .9s;
+    }
+    .escribeme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 7%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+    }
+    .escribeme .formulario {
+        margin-left: 0%;
+        width: 100%;
+        font-size: 10px;
+    }
+    .escribeme .formulario ul {
+        list-style-type: none;
+    }
+    
+    .escribeme h3 {
+        font-size: 1em;
+    }
+    
+    #nombre {
+        font-size: 10px;
+    }
+    #correo{
+        font-size: 10px;
+    }
+    #mensaje {
+        font-size: 10px;
+        margin-left: 0%;
+    }
+    .formul {
+        border-radius: 10px;
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        background-color: #726eff;
+    }
+    .formul label  {
+        margin: 10px;
+    }
+    .formul button {
+        font-family: 'Rubik', sans-serif;
+        width: 20%;
+        color: white;
+        border: none;
+        border-radius: 35px;
+        background-color: #212b38;
+        font-size: 20px;
+        margin: 30px;
+        transition: 1s;
+        margin-left: 40%;
+    }
+    .boton_volver {
+        display: none;
+        
+    }
+    .boton_volver a{ 
+        display: none;
+    }
+    }
