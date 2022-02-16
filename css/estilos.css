@@ -937,7 +937,7 @@ header:hover {
         display: none;
     }
     }
-    @media (max-width: 400px){
+    @media (max-width: 450px){
         .titulo{
             font-size: 13px;
         }
