@@ -39,6 +39,7 @@ header:hover {
     justify-content: space-around;   
 }
 .container .titulo_subt {
+    font-size: 40px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -70,7 +71,7 @@ header:hover {
     height: 2em;
     background-color: #37465b;
     border-radius: 20px;
-    font-size: 40px;
+    font-size: 25px;
     transition: .4s;
     overflow: hidden;
 }
@@ -106,6 +107,7 @@ header .logo  img {
     border-radius: 50%;
 }
 .sobre_mi {
+    font-size: 30px;
     padding-top: 5%;
     /*margin-top: 1%;*/
     padding-bottom: 5%;
@@ -118,7 +120,7 @@ header .logo  img {
     box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
     border-width: 5px;
     border-radius: 10px;
-    width: 600px;
+    width: 300px;
 }
 .fto {
     background-color: #212b38;
@@ -129,6 +131,7 @@ header .logo  img {
     margin-right: 10%;
 }
 .fto p {
+    font-size: 25px;
     width: 60%;
     margin-top: 5%;
     text-align: justify;
