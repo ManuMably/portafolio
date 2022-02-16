@@ -383,6 +383,7 @@ header:hover {
     background-color: #3296c8;
 }
 .container {
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -663,6 +664,14 @@ header:hover {
     }
     header:hover {
         background-color: #3296c8;
+    }
+    .titulo {
+        font-size: 10px;
+    }
+    .subtitulo{
+        font-size: 8px;
+        margin-bottom: 5px;
+        margin-top: 5px;
     }
     .container {
         display: flex;
