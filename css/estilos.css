@@ -936,3 +936,11 @@ header:hover {
         display: none;
     }
     }
+    @media (max-width: 400px){
+        .titulo{
+            font-size: 13px;
+        }
+        .subtitulo{
+            font-size: 10px;
+        }
+    }
