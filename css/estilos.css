@@ -145,6 +145,7 @@ header .logo  img {
     text-align: justify;
 }
 .habilidades {
+    font-size: 35px;
     margin-left: 15%;
     margin-right: 15%;
     width: 70%;
@@ -229,6 +230,7 @@ header .logo  img {
     margin-bottom: 10%;
 }
 .Hoja_de_vida h2 {
+    font-size: 35px;
     margin-top: 2%;
 }
 .Hoja_de_vida a {
@@ -243,6 +245,7 @@ header .logo  img {
     background-color: #37465b;
 }
 .redes_sociales {
+    font-size: 35px;
     padding-bottom: 5%;
     display: flex;
     justify-content: center;
@@ -304,12 +307,8 @@ header .logo  img {
 .escribeme .formulario {
     font-size: 30px;
 }
-.escribeme .formulario ul {
-    list-style-type: none;
-}
-
 .escribeme h3 {
-    font-size: 2em;
+    font-size: 45px;
 }
 
 #nombre {
