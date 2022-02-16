@@ -394,6 +394,8 @@ header:hover {
     justify-content: space-around;
     flex-direction: row;
 }
+.container .titulo_subt {
+    font-size: 25px;}
 .navegacion button {
     border: none;
     position: relative;
@@ -446,7 +448,6 @@ header:hover {
 }
 .texto {
     background-color: #37465b ;
-    /*background-size: 100%;*/
     font-size: 15px;
     align-self: center;
     padding-left: 10%;
@@ -469,6 +470,7 @@ header:hover {
     justify-content: center;
 }
 #habili {
+    font-size: 25px;
     padding-left: 15%;
     padding-right: 15%;
     width: 70%;
@@ -484,6 +486,7 @@ header:hover {
     
 }
 .icons p {
+    font-size: 19px;
     display: flex;
     z-index: 20;
     flex-direction: column;
@@ -550,6 +553,7 @@ header:hover {
     flex-direction: column;
 }
 #redes {
+    font-size: 25px;
     margin-top: 5%;
 }
 .icono_redes {
