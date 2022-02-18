@@ -434,6 +434,56 @@ footer {
     .social_media_title{
         width: 70%;
     }
+    .contact_formulary{
+        width: 50%;
+        background-color: #52658f;
+        /*width: 50%;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .contact_formulary h3{
+        border-bottom: solid #f5f5e6;
+        background-color: #52658f;
+        font-size: 20px;
+    }
+    .formul{
+        font-size: 15px;
+        background-color: #52658f;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .formul label{
+        font-size: 20px;
+        background-color: #52658f;
+    }
+    .formul button {
+        margin-top: 2%;
+        width: 200px;
+        font-size: 15px;
+    }
+    #nombre {
+        width: 200px;
+        font-size: 15px;
+        color: black;
+        background-color: white;
+    }
+    #correo{
+        width: 200px;
+        font-size: 20px;
+        color: black;
+        background-color: white;
+    }
+    #mensaje{
+        height: 100px;
+        width: 200px;
+        font-size: 15px;
+        color: black;
+        background-color: white;
+    }
 }
 @media (max-width: 700px){
     .header_section{
