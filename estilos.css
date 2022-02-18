@@ -211,8 +211,8 @@ background: #52658f;
     width: 50%;
 }
 .about_me_section_right p{
+    width: 40%;
     font-size: 20px;
-    align-self: flex-end;
     color: black;
     background-color: #f5f5e6;
 }
