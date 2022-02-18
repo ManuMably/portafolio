@@ -323,6 +323,13 @@ footer {
     width: 100%;
     text-align: center;
 }
+#curriculum img {
+    width: 4%;
+}
+#curriculum p {
+    margin-bottom: 1%;
+}
+
 @media (max-width: 1438px) and (min-width: 871px){
     .header_section{
         height: 500px;
