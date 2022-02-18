@@ -206,11 +206,12 @@ background: #52658f;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-items: end;
     background-color: #f5f5e6;
     width: 50%;
 }
 .about_me_section_right p{
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
     color: black;
     background-color: #f5f5e6;
